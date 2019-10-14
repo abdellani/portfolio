@@ -1,0 +1,32 @@
+@import "../../scss/variables.scss";
+
+body{
+  background-color: #ffd701 ;
+
+  #right-panel{
+    >div:first-child{
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .twitter-card{
+    color: black;
+    .first-row{
+      >div{
+        width: 35px;
+        height: 35px;
+        background-color: $blue-twitter;
+      img{
+        width: 15px;
+        height: 15px;
+      }}
+
+    }
+    .second-row{
+      img{
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}
