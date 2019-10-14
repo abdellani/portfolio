@@ -1,31 +1,64 @@
 @import "../../scss/variables.scss";
 
-body{
-  background-color: #ffd701 ;
+body {
+  background-color: #ffd701;
 
-  #right-panel{
-    >div:first-child{
-      width: 30px;
-      height: 30px;
+  .container {
+    border-radius: 30px;
+    height: 500px;
+    .navigation-bar{
+      .logo{
+        height: 30px;
+      }
+      ul{
+        list-style: none;
+        // li
+      }
     }
-  }
-  .twitter-card{
-    color: black;
-    .first-row{
-      >div{
-        width: 35px;
-        height: 35px;
-        background-color: $blue-twitter;
-      img{
-        width: 15px;
-        height: 15px;
-      }}
+    #right-panel {
+      height: 500px;
+      border-top-right-radius: 30px;
+      border-bottom-right-radius: 30px;
+      >div:first-child {
+        width: 30px;
+        min-height: 30px;
+      }
 
-    }
-    .second-row{
-      img{
-        width: 40px;
-        height: 40px;
+      .twitter-card {
+        color: black;
+        border-radius: 15px;
+
+        .first-row {
+          >div {
+            width: 35px;
+            height: 35px;
+            background-color: $blue-twitter;
+
+            img {
+              width: 15px;
+              height: 15px;
+            }
+          }
+        }
+
+        .second-row {
+          img {
+            width: 40px;
+            height: 40px;
+          }
+
+          .identifiers {
+            font-size: 13px;
+          }
+
+          .two-points {
+            font-size: 20px;
+          }
+        }
+
+        .main {
+          font-size: 13px;
+        }
       }
     }
   }
