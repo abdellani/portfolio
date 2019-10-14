@@ -6,19 +6,57 @@ body {
   .container {
     border-radius: 30px;
     height: 500px;
-    .navigation-bar{
-      .logo{
+
+    .navigation-bar {
+      .logo {
         height: 30px;
       }
-      ul{
+
+      ul {
         list-style: none;
-        // li
       }
     }
+
+    #left-panel {
+      background-color: $dark-imdb;
+      border-radius: 15px;
+
+      >div:first-child {
+        >img {
+          border-radius: 15px;
+        }
+      }
+
+      .titles {
+        color: white;
+        text-transform: uppercase;
+        font-size: 12px;
+
+        .selected {
+          background-color: $dark-lighter-imdb;
+          border-top-left-radius: 25px;
+          border-top-right-radius: 25px;
+        }
+
+        .sub-list {
+          text-transform: capitalize;
+          div {
+            background-color: $dark-lighter-imdb;
+          }
+          img{
+            border-radius: 15px;
+            height: 50px;
+            width: 50px;
+          }
+        }
+      }
+    }
+
     #right-panel {
       height: 500px;
       border-top-right-radius: 30px;
       border-bottom-right-radius: 30px;
+
       >div:first-child {
         width: 30px;
         min-height: 30px;
