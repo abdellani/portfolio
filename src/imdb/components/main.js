@@ -1,9 +1,13 @@
 import React from "react"
 import { Fragment } from "react"
-import greenBook from "../images/greenbook.jpeg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHandPointRight } from "@fortawesome/free-regular-svg-icons"
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons"
+import greenBook from "../images/greenbook.jpeg"
+import theLionKing from "../images/theLionKing.jpeg"
+import angelHasFallen from "../images/angelHasFallen.jpg"
+import terminator from "../images/terminator.jpg"
+import abominable from "../images/abominable.png"
 
 let Main = () =>
   <Fragment>
@@ -22,13 +26,13 @@ let Main = () =>
           <span className="red-circle mx-2 d-flex align-items-center justify-content-center">5</span>
           <div>
             All filter
-                  </div>
+          </div>
         </div>
       </div>
     </div>
     <div className="row explore-movie py-3">
       <div className="col-md-4 px-1">
-        <img src={greenBook} />
+        <img src={theLionKing} />
       </div>
       <div className="col-md-3 px-1">
         <div className="second-column d-flex flex-column">
@@ -65,19 +69,19 @@ let Main = () =>
         </div>
       </div>
       <div className="col-md-3 px-1">
-        <img src={greenBook} />
+        <img src={angelHasFallen} />
       </div>
       <div className="col-md-2 px-1">
-      <div className="fourth-column d-flex flex-column">
+        <div className="fourth-column d-flex flex-column">
           <div
             className="d-flex justify-content-center align-items-center text-dark font-weight-bold mb-1"
           >
-                VIEW ALL
+            VIEW ALL
           </div>
           <div
-            className="d-flex justify-content-center align-items-center text-dark font-weight-bold"
+            className="yellow-imdb d-flex justify-content-center align-items-center text-dark"
           >
-                IMDB
+            IMDB
           </div>
         </div>
       </div>
@@ -92,10 +96,10 @@ let Main = () =>
         <img src={greenBook} />
       </div>
       <div className="col-md-4">
-        <img src={greenBook} />
+        <img src={terminator} />
       </div>
       <div className="col-md-4">
-        <img src={greenBook} />
+        <img src={abominable} />
       </div>
     </div>
   </Fragment>
