@@ -5,7 +5,7 @@ body {
 
   .container {
     border-radius: 30px;
-    height: 500px;
+    min-height: 500px;
 
     .navigation-bar {
       .logo {
@@ -15,6 +15,64 @@ body {
       ul {
         list-style: none;
       }
+    }
+
+    #filter {
+      border-radius: 10px;
+    }
+
+    .explore-movie {
+      img {
+        height: 150px;
+        width: 100%;
+        border-radius: 15px;
+      }
+
+      .second-column {
+        height: 100%;
+
+        .facebook {
+          background-color: $blue-facebook;
+          border-radius: 13px;
+          height: 48%;
+          font-size: 10px;
+        }
+
+        .snapshot {
+          border: 1px solid $gray-boder;
+          border-radius: 13px;
+          height: 48%;
+          font-size: 10px;
+        }
+      }
+
+      .fourth-column {
+        height: 100%;
+        >div {
+          border: 1px solid $gray-boder;
+          border-radius: 13px;
+          height: 48%;
+          font-size: 10px;
+        }
+      }
+    }
+
+    .top-movie {
+      img {
+        height: 300px;
+        width: 100%;
+        border-radius: 15px;
+      }
+    }
+
+    .red-circle {
+      color: white;
+      background-color: red;
+      border-radius: 50%;
+      display: inline-block;
+      height: 30px;
+      width: 30px;
+      text-align: center;
     }
 
     #left-panel {
@@ -40,10 +98,12 @@ body {
 
         .sub-list {
           text-transform: capitalize;
+
           div {
             background-color: $dark-lighter-imdb;
           }
-          img{
+
+          img {
             border-radius: 15px;
             height: 50px;
             width: 50px;
@@ -53,7 +113,8 @@ body {
     }
 
     #right-panel {
-      height: 500px;
+      //height: 500px;
+
       border-top-right-radius: 30px;
       border-bottom-right-radius: 30px;
 

@@ -3,9 +3,10 @@ import "./scss/index.scss"
 import Navbar from "./components/navbar"
 import LeftPanel from "./components/leftPanel"
 import RightPanel from "./components/rightPanel"
+import Main from "./components/main"
 
 const Application = () =>
-  <div className="container bg-white my-5 ">
+  <div className="container bg-white my-5 pb-3 ">
     <div className="row">
       <div className="col-md-9 container">
         <div className="row">
@@ -15,9 +16,11 @@ const Application = () =>
         </div>
         <div className="row">
           <div className="col-md-4">
-            <LeftPanel/>
+            <LeftPanel />
           </div>
-
+          <div className="col-md-8 container">
+            <Main/>
+          </div>
         </div>
       </div>
       <div className="col-md-3 px-0">
