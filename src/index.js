@@ -15,7 +15,7 @@ import {
   Link
 } from "react-router-dom";
 // import  IMDB from './imdb'
-import onlineStore from './onlineStore'
+import OnlineStore from './onlineStore'
 
 // const App = ()=>
 //     <Router>
@@ -36,5 +36,5 @@ import onlineStore from './onlineStore'
 //       </div>
 //     </Router>
 
-ReactDOM.render(<onlineStore />, document.getElementById('root'));
+ReactDOM.render(<OnlineStore />, document.getElementById('root'));
 
