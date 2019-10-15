@@ -29,5 +29,4 @@ const Application = () =>
     </div>
   </div>
 
-
-export default Application
+export default Application;
