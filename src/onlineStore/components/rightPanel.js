@@ -20,7 +20,6 @@ const Order =({price,brand})=>
           </div>
         </div>
 
-
 const rightPanel = () =>
   <div
     className={[
@@ -49,7 +48,6 @@ const rightPanel = () =>
 
     </div>
     <div
-      /* main */
       className={[
         "d-flex", "flex-column", "align-items-end","ml-4"
       ].join(" ")}
@@ -57,7 +55,7 @@ const rightPanel = () =>
       <div className={"profile-container w-100  bg-dark-l1 py-4 my-3"}>
         <div className={"d-flex align-items-center border-bottom border-secondary pb-3 "}>
           <div className="px-3">
-            <img className="profile" src={profile} />
+            <img className="profile" alt="profile" src={profile} />
           </div>
           <div className="d-flex flex-column">
             <div>
