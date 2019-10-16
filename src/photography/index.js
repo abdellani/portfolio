@@ -1,10 +1,10 @@
 import React from 'react';
-import SidePanel from "./component/sidePanel"
-import GameType from "./component/gameType"
-import YourTeam from "./component/yourTeam"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar } from '@fortawesome/free-solid-svg-icons'
-import avatar from "./images/avatar.jpg"
+import YourTeam from "./component/yourTeam";
+import SidePanel from "./component/sidePanel";
+import GameType from './component/gameType';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+import avatar from "./images/avatar.jpg";
 import { CSSTransition } from "react-transition-group";
 import "./scss/index.scss"
 class Application extends React.Component {
