@@ -1,0 +1,16 @@
+@import "./variables.scss";
+
+.text-violet{
+  color:$color-violet;
+}
+
+.d-flex {
+  display: flex;
+}
+.bold{
+  font-weight: bold;
+}
+.space{
+  display: inline-block;
+  width: 5px;
+}

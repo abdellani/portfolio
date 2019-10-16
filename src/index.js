@@ -17,6 +17,7 @@ import {
 
 const IMDB = React.lazy(() => import('./imdb'))
 const OnlineStore = React.lazy(() => import('./onlineStore'))
+const Photography = React.lazy(() => import('./photography'))
 const App = () =>
   <Router>
     <div>
@@ -32,6 +33,11 @@ const App = () =>
             <OnlineStore />
           </Suspense>
         </Route>
+        <Route path="/photography">
+          <Suspense fallback={<div>Loading</div>} >
+            <Photography />
+          </Suspense>
+        </Route>
         <Route>
           <nav>
             <ul>
@@ -40,6 +46,9 @@ const App = () =>
               </li>
               <li>
                 <Link to="/online-store" target="_blank">online store</Link>
+              </li>
+              <li>
+                <Link to="/photography" target="_blank">photography</Link>
               </li>
             </ul>
           </nav>

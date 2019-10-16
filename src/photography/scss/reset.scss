@@ -1,0 +1,11 @@
+:focus {
+  outline: none;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
