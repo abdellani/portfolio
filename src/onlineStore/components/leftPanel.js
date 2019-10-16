@@ -6,7 +6,7 @@ const leftPanel = () =>
   <div
     className={[
       "left-panel", "col-md-1", "py-2",
-      "h-100", "d-flex", "flex-column",
+       "d-flex", "flex-column",
       "justify-content-between", "align-items-center"
     ].join(" ")}
   >
