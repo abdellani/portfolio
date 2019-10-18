@@ -1,0 +1,44 @@
+body {
+  /* nice slider adapter*/
+  .aws-sld__bullets {
+    display: none;
+  }
+
+  .wrapper {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .aws-sld {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .aws-sld__container {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .aws-sld__content {
+    align-items: unset;
+  }
+
+}
+
+body {
+  background-color: black;
+  color: white;
+  .content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    .card{
+      width: 250px;
+      max-width: 250px;
+      min-width: 250px;
+      .screenshot{
+        height: 200px;
+      }
+    }
+  }
+}

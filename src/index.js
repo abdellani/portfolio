@@ -14,14 +14,13 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Portoflio from "./portfolio"
 
 const IMDB = React.lazy(() => import('./imdb'))
 const OnlineStore = React.lazy(() => import('./onlineStore'))
 const Photography = React.lazy(() => import('./photography'))
 const App = () =>
   <Router>
-    <div>
-
       <Switch>
         <Route path="/imdb">
           <Suspense fallback={<div>Loading</div>} >
@@ -39,22 +38,9 @@ const App = () =>
           </Suspense>
         </Route>
         <Route>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/imdb" target="_blank" >imdb</Link>
-              </li>
-              <li>
-                <Link to="/online-store" target="_blank">online store</Link>
-              </li>
-              <li>
-                <Link to="/photography" target="_blank">photography</Link>
-              </li>
-            </ul>
-          </nav>
+          <Portoflio/>
         </Route>
       </Switch>
-    </div>
   </Router>
 
 ReactDOM.render(<App />, document.getElementById('root'));
