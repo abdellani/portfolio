@@ -26,10 +26,14 @@ const application = () =>
     <Anime
       opacity={[0, 1]}
       translateX={[-500, 0]}
+      duration={3000}
     >
-      <div>
+      <div className="h3">
         Hi,
-      I'm abdellani mohamed
+        <br />
+        I'm abdellani mohamed
+        <br/>
+        
       </div>
     </Anime>
 

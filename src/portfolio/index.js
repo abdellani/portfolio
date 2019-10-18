@@ -18,8 +18,8 @@ const Application = () =>
     <div className="content">
     <SecondPage />
     </div>
-    <ThirdPage />
-    <FourthPage />
+    {/* <ThirdPage />
+    <FourthPage /> */}
   </AwesomeSlider>
 </div>
 export default Application;

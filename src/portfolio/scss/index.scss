@@ -32,6 +32,11 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
+    .project-list-container{
+      overflow-y: auto;
+      overflow-x: visible;
+      min-width: 250px;
+    }
     .card{
       width: 250px;
       max-width: 250px;
