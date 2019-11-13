@@ -9,19 +9,22 @@ import ThirdPage from "./components/third"
 import FourthPage from "./components/fourth"
 
 const Application = () =>
-<div className="wrapper">
-  <AwesomeSlider
-  >
-    <div className="content">
-      <FirstPage />
-    </div>
-    <div className="content">
-    <SecondPage />
-    </div>
-    {/* <ThirdPage />
+  <div className="wrapper">
+    <AwesomeSlider
+    >
+      <div className="content first-page">
+        <FirstPage />
+      </div>
+      <div className="content">
+        <SecondPage />
+      </div>
+      <div className="content">
+        <ThirdPage />
+      </div>
+      {/* 
     <FourthPage /> */}
-  </AwesomeSlider>
-</div>
+    </AwesomeSlider>
+  </div>
 export default Application;
 
 // const navar = () =>

@@ -3,28 +3,37 @@ body {
   .aws-sld__bullets {
     display: none;
   }
-
+  
   .wrapper {
     height: 100vh;
     width: 100%;
   }
-
+  
   .aws-sld {
     height: 100vh;
     width: 100%;
   }
-
+  
   .aws-sld__container {
     height: 100vh;
     width: 100%;
   }
-
+  
   .aws-sld__content {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
     align-items: unset;
   }
 
 }
-
+.w-md-80{
+  width: 80%;
+}
+.first-page{
+  font-size: 20px;
+}
 body {
   background-color: black;
   color: white;

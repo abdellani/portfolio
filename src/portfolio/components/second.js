@@ -9,7 +9,7 @@ import onlineStore from "../images/onlineStore.png"
 import photography from "../images/photography.png"
 
 const Card = ({ index, img, title, technologies, demoUrl, codeUrl, ideaSource }) =>
-  <div key={index} className="card text-dark mx-1 my-1">
+  <div key={index} className="card text-dark mx-1 my-1 mb-2">
     <img className="screenshot" src={img} />
     <div className="card-header bg-white">
       <h5 className="card-title">{title}</h5>
