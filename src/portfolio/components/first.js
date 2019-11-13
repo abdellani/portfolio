@@ -15,7 +15,7 @@ const paragraphs = [
   </Fragment>
   ,
   <Fragment>
-    I'm also an Offesive Security Certified Professional (<span class="text-danger font-weight-bold">OSCP</span>).
+    I'm also an Offensive Security Certified Professional (<span class="text-danger font-weight-bold">OSCP</span>).
   </Fragment>
   ,
   <Fragment>
