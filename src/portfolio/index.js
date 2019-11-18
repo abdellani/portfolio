@@ -6,7 +6,7 @@ import "./scss/index.scss"
 import FirstPage from "./components/first"
 import SecondPage from "./components/second"
 import ThirdPage from "./components/third"
-import FourthPage from "./components/fourth"
+// import FourthPage from "./components/fourth"
 
 const Application = () =>
   <div className="wrapper">
@@ -26,18 +26,3 @@ const Application = () =>
     </AwesomeSlider>
   </div>
 export default Application;
-
-// const navar = () =>
-//   <nav>
-//     <ul>
-//       <li>
-//         <Link to="/imdb" target="_blank" >imdb</Link>
-//       </li>
-//       <li>
-//         <Link to="/online-store" target="_blank">online store</Link>
-//       </li>
-//       <li>
-//         <Link to="/photography" target="_blank">photography</Link>
-//       </li>
-//     </ul>
-//   </nav>

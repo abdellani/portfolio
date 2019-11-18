@@ -7,6 +7,8 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 import avatar from "./images/avatar.jpg";
 import { CSSTransition } from "react-transition-group";
 import "./scss/index.scss"
+import SourceCodeButton from "../general/source_code_button"
+
 class Application extends React.Component {
   constructor(props) {
     super(props)
@@ -29,7 +31,7 @@ class Application extends React.Component {
     let timeout = 0;
     return (
       <div className="application">
-
+      <SourceCodeButton url="http://google.com"/>
         <SidePanel  resetGameType={()=> this.updateGameType(null)}{...this.state} />
         <div className="main">
           <div className="profile">

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () =>
-  <div className="p-4 navigation-bar d-flex justify-content-between ">
+  <div className="p-4 navigation-bar d-flex justify-content-between text-dark ">
     <img className="logo" src={imdbLogo} />
     <ul className="d-flex">
       <li

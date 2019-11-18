@@ -12,17 +12,16 @@ const leftPanel = () =>
   >
     <div
       className={[
-        "d-flex", "flex-column",
+        "d-flex", "flex-md-column",
         "justify-content-between", "align-items-center"
       ].join(" ")}
     >
-      <div className="border-bottom border-secondary pb-4 mb-4">
-        <div className="icon darker">
+        <div className="icon darker mb-md-4">
           <FontAwesomeIcon
             icon={faRadiation}
           />
         </div>
-      </div>
+        <span className="border-bottom border-secondary w-100 d-md-block mb-md-4 d-none"></span>
       <div className="icon darker">
         <FontAwesomeIcon
           icon={faThLarge}

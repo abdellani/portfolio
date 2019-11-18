@@ -1,11 +1,13 @@
-import React from "react"
+import React,{Fragment} from "react"
 import "./scss/index.scss"
 import Navbar from "./components/navbar"
 import LeftPanel from "./components/leftPanel"
 import RightPanel from "./components/rightPanel"
 import Main from "./components/main"
-
+import SourceCodeButton from "../general/source_code_button"
 const Application = () =>
+<Fragment>
+  <SourceCodeButton url="http://google.com"/>
   <div className="container bg-white my-5 pb-3 ">
     <div className="row">
       <div className="col-md-9 container">
@@ -28,5 +30,6 @@ const Application = () =>
       </div>
     </div>
   </div>
+</Fragment>
 
 export default Application;
