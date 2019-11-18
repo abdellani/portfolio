@@ -49,7 +49,7 @@ const projects = [
     title: "Online store",
     technologies: "HTML,CSS, Bootstrap and React",
     demoUrl: "/online-store",
-    codeUrl: "#",
+    codeUrl: "https://github.com/abdellani/portfolio/tree/development/src/onlineStore",
     ideaSource: "https://dribbble.com/shots/7476168-Online-store-dashboard-dark-mode"
   },
   {
@@ -57,7 +57,7 @@ const projects = [
     title: "IMDb",
     technologies: "HTML,CSS, Bootstrap and React",
     demoUrl: "/imdb",
-    codeUrl: "#",
+    codeUrl: "https://github.com/abdellani/portfolio/tree/development/src/imdb",
     ideaSource: "https://dribbble.com/shots/7228236-IMDb-website-concept"
   },
   {
@@ -72,7 +72,7 @@ const projects = [
     title: "Sport !",
     technologies: "HTML,CSS, Bootstrap and React",
     demoUrl: "/photography",
-    codeUrl: "#",
+    codeUrl: "https://github.com/abdellani/portfolio/tree/development/src/photography",
     ideaSource: "https://dribbble.com/shots/6804943-Gamely-Screens-Transition-Concept"
   },
 ]
